@@ -8,7 +8,7 @@ CHIP Xor {
     PARTS:
 
     Nand (a=a, b=b, out=outInter);
-    
+
     Nand (a=a, b=outInter, out=outa);
     Nand (a=b, b=outInter, out=outb);
 
